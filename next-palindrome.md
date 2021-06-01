@@ -24,20 +24,23 @@ findNextPalindrome(101)
 
 ## Rewrite the question in your own words:
 
+Find the next number that is a palindrome after a given number (param)
 
 ## What assumptions will you make about this problem if you cannot ask any more clarifying questions? What are your reasons for making those assumptions?
 
+I will solve this in the easiest way first even if it not the fastest optimized way. Then go back and refactor with extra time.
 
 ## What are your initial thoughts about this problem? (high level design, 2-3 sentences)
 
+If number is equal to opposite return num else ++
 
 ## How would you identify the elements of this problem?
 
 - [ ] Searching of Data
 - [ ] Sorting of Data
-- [ ] Pattern Recognition
+- [x] Pattern Recognition
 - [ ] Build/Navigate a Grid
-- [ ] Math
+- [x] Math
 - [ ] Language API knowledge
 - [ ] Optimization
 
